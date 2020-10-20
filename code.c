@@ -13,3 +13,14 @@ int main()
     {
         if(noc>=m)
         {
+            k1=noc/m;
+            count=count+k1;
+            k2=noc%m;
+            noc=k1+k2;
+        }
+        else
+            break; 
+    }
+    printf("%d\n",count);
+}
+}
